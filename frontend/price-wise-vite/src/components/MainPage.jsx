@@ -5,7 +5,7 @@ import DashBoard from './DashBoard'
 function MainPage() {
     return (
 
-        <div className='flex'>
+        <div className='flex bg-black'>
             <Sidebar />
             <DashBoard />
         </div>
