@@ -24,9 +24,9 @@ function DashBoard() {
     <>
       <div className="flex flex-col  p-4 bg-black w-screen rounded-xl mt-4 m-2">
         <div className="text-2xl font-semibold "></div>
-        <div className="input flex justify-between">
+        <div className="flex justify-between">
           <input type="text" />
-          <div className="light-mode-buttons">
+          <div className="light-mode-buttons flex  gap-4 p-0.2">
             <NoteIcon/>
             <Notify/>
           </div>
